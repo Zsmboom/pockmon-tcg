@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Pokémon TCG Pocket</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="images/logo.png" alt="Pokémon TCG Pocket Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cards.html">Cards</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="videos.html" class="active">Videos</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="videos-header">
+            <h1>Game Videos</h1>
+            <p>Watch exciting gameplay content and guides</p>
+        </section>
+
+        <section class="video-categories">
+            <div class="category-buttons">
+                <button class="active" data-category="all">All</button>
+                <button data-category="gameplay">Gameplay</button>
+                <button data-category="tutorial">Tutorials</button>
+                <button data-category="strategy">Strategy</button>
+            </div>
+        </section>
+
+        <section class="video-grid" id="videoGrid">
+            <!-- Videos will be loaded dynamically via JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Pokémon TCG Pocket Logo">
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cards.html">Cards</a></li>
+                    <li><a href="download.html">Download</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><img src="images/weibo.png" alt="Weibo"></a>
+                    <a href="#"><img src="images/wechat.png" alt="WeChat"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pokémon TCG Pocket. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/videos.js"></script>
+</body>
+</html>
